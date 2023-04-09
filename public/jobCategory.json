@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "../src/assets/Icons/social-media.png",
+        "category": "Marketing",
+        "jobs_available": 25
+    },
+    {
+        "id": 2,
+        "image": "../src/assets/Icons/engineer.png",
+        "category": "Engineering",
+        "jobs_available": 50
+    },
+    {
+        "id": 3,
+        "image": "../src/assets/Icons/finance.png",
+        "category": "Design",
+        "jobs_available": 10
+    },
+    {
+        "id": 4,
+        "image": "../src/assets/Icons/accounts.png",
+        "category": "Finance",
+        "jobs_available": 35
+    }
+]

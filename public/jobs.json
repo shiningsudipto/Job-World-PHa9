@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "company_logo": "https://www.pngall.com/wp-content/uploads/5/Google-Logo-PNG-Free-Image.png",
+        "job_title": "Software Engineer",
+        "company_name": "Google",
+        "remote_or_onsite": "Remote",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$150,000 - $200,000",
+        "job_description": "We are looking for a software engineer to help us build and improve our core search technologies.",
+        "job_responsibility": "Design and implement scalable software systems that power Google's search engine. Collaborate with product and design teams to develop new features and optimize existing ones.",
+        "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+        "experiences": "5+ years of software engineering experience, with a focus on large-scale distributed systems.",
+        "contact_information": {
+            "phone": "(123) 456-7890",
+            "email": "jobs@google.com"
+        }
+    },
+    {
+        "id": 2,
+        "company_logo": "https://www.pngkit.com/png/full/410-4108510_apple-inc-vector-logo-apple-company-logo-png.png",
+        "job_title": "iOS Developer",
+        "company_name": "Apple",
+        "remote_or_onsite": "Onsite",
+        "location": "Cupertino, CA",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$120,000 - $170,000",
+        "job_description": "Join the team that creates the world's most advanced mobile operating system, powering billions of devices around the globe.",
+        "job_responsibility": "Design and implement new features for iOS using Swift and Objective-C. Collaborate with cross-functional teams to deliver high-quality software that delights our users.",
+        "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+        "experiences": "3+ years of experience developing iOS apps, with a deep understanding of iOS frameworks and technologies.",
+        "contact_information": {
+            "phone": "(123) 456-7890",
+            "email": "jobs@apple.com"
+        }
+    },
+    {
+        "id": 3,
+        "company_logo": "https://www.freepnglogos.com/uploads/microsoft-logo-images-png-33.png",
+        "job_title": "Cloud Solutions Architect",
+        "company_name": "Microsoft",
+        "remote_or_onsite": "Remote",
+        "location": "Redmond, WA",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$140,000 - $190,000",
+        "job_description": "Join our team and help us design and deliver cloud solutions that drive digital transformation for our customers.",
+        "job_responsibility": "Partner with sales and engineering teams to design and architect cloud solutions that meet customer needs. Present complex technical information to both technical and non-technical audiences.",
+        "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+        "experiences": "7+ years of experience designing and implementing cloud solutions using Azure, AWS, or other cloud platforms.",
+        "contact_information": {
+            "phone": "(123) 456-7890",
+            "email": "jobs@microsoft.com"
+        }
+    },
+    {
+        "id": 4,
+        "company_logo": "https://hindubabynames.info/downloads/wp-content/themes/hbn_download/download/social-media/facebook-logo.png",
+        "job_title": "Data Analyst",
+        "company_name": "Facebook",
+        "remote_or_onsite": "Onsite",
+        "location": "Menlo Park, CA",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$110,000 - $150,000",
+        "job_description": "Help us analyze and understand data to improve our products and services.",
+        "job_responsibility": "Develop and maintain databases and data systems. Analyze and interpret data to identify patterns and trends. Collaborate with cross-functional teams to deliver insights and recommendations.",
+        "educational_requirements": "Bachelor's degree in Statistics, Mathematics, or related field"
+    },
+    {
+        "id": 5,
+        "company_logo": "https://www.freepnglogos.com/uploads/amazon-png-logo-vector/woodland-gardening-amazon-png-logo-vector-8.png",
+        "job_title": "Machine Learning Engineer",
+        "company_name": "Amazon",
+        "remote_or_onsite": "Onsite",
+        "location": "Seattle, WA",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$130,000 - $180,000",
+        "job_description": "Join our team and help us build intelligent systems that power Amazon's products and services.",
+        "job_responsibility": "Design and implement machine learning models and algorithms that solve complex business problems. Collaborate with cross-functional teams to deliver high-quality software that meets customer needs.",
+        "educational_requirements": "Bachelor's degree in Computer Science, Mathematics, or a related field.",
+        "experiences": "5+ years of experience in machine learning, with expertise in at least one of the following areas: deep learning, natural language processing, or computer vision.",
+        "contact_information": {
+            "phone": "(123) 456-7890",
+            "email": "jobs@amazon.com"
+        }
+    },
+    {
+        "id": 6,
+        "company_logo": "https://www.freepnglogos.com/uploads/ibm-logo-png/ibm-logo-png-transparent-svg-vector-bie-supply-3.png",
+        "job_title": "Front-End Developer",
+        "company_name": "IBM",
+        "remote_or_onsite": "Remote",
+        "location": "Anywhere",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$100,000 - $150,000",
+        "job_description": "Join our team and help us build cutting-edge web applications using the latest front-end technologies.",
+        "job_responsibility": "Design and implement front-end features that are user-friendly, responsive, and accessible. Collaborate with back-end engineers to integrate front-end code with server-side APIs.",
+        "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+        "experiences": "3+ years of experience in front-end web development, with expertise in HTML, CSS, JavaScript, and modern front-end frameworks such as React, Vue, or Angular.",
+        "contact_information": {
+            "phone": "(123) 456-7890",
+            "email": "jobs@ibm.com"
+        }
+    }
+]
