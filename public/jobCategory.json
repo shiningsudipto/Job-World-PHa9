@@ -3,24 +3,24 @@
         "id": 1,
         "image": "../src/assets/Icons/social-media.png",
         "category": "Marketing",
-        "jobs_available": 25
+        "jobs_available": "250 Jobs Available"
     },
     {
         "id": 2,
         "image": "../src/assets/Icons/engineer.png",
         "category": "Engineering",
-        "jobs_available": 50
+        "jobs_available": "50 Jobs Available"
     },
     {
         "id": 3,
         "image": "../src/assets/Icons/finance.png",
         "category": "Design",
-        "jobs_available": 10
+        "jobs_available": "200 Jobs Available"
     },
     {
         "id": 4,
         "image": "../src/assets/Icons/accounts.png",
         "category": "Finance",
-        "jobs_available": 35
+        "jobs_available": "10 Jobs Available"
     }
 ]
