@@ -18,12 +18,15 @@ const AppliedJobs = () => {
 
     return (
         <div className='container mx-auto'>
-            {
-                jobDetails.map(myJob => <MyJob
-                    key={myJob.id}
-                    myJob={myJob}
-                ></MyJob>)
-            }
+
+            <div>
+                {
+                    jobDetails.map(myJob => <MyJob
+                        key={myJob.id}
+                        myJob={myJob}
+                    ></MyJob>)
+                }
+            </div>
         </div>
     );
 };
