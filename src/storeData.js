@@ -27,13 +27,6 @@ const addToLocalStorage = (obj) => {
     }
 };
 
-const getItemFromLocalStorage = () => {
-    const storedData = localStorage.getItem("jobDetails");
-    const jobDetails = JSON.parse(storedData);
-    return jobDetails
-}
-
-
 
 export {
     addToLocalStorage
