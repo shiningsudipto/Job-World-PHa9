@@ -64,7 +64,12 @@
         "salary": "$110,000 - $150,000",
         "job_description": "Help us analyze and understand data to improve our products and services.",
         "job_responsibility": "Develop and maintain databases and data systems. Analyze and interpret data to identify patterns and trends. Collaborate with cross-functional teams to deliver insights and recommendations.",
-        "educational_requirements": "Bachelor's degree in Statistics, Mathematics, or related field"
+        "educational_requirements": "Bachelor's degree in Statistics, Mathematics, or related field",
+        "experiences": "7+ years of experience designing and implementing cloud solutions using Azure, AWS, or other cloud platforms.",
+        "contact_information": {
+            "phone": "(123) 456-7890",
+            "email": "jobs@facebook.com"
+        }
     },
     {
         "id": 5,

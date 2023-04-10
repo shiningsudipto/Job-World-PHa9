@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Jobs from './Jobs';
+// import { useLoaderData } from 'react-router-dom';
 
 const FeaturedJobs = () => {
     const [featuredJobs, setFeaturedJobs] = useState([]);
@@ -9,6 +10,7 @@ const FeaturedJobs = () => {
             .then(data => setFeaturedJobs(data))
     }, [])
     console.log(featuredJobs);
+    // const featuredJobs = useLoaderData();
     return (
         <div className='container mx-auto my-20'>
             <div className='text-center'>
