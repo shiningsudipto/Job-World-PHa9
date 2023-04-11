@@ -2,8 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div>
-            <h3>This is Blog page</h3>
+        <div className='container mx-auto my-6'>
             <h3 className='text-2xl font-semibold mt-8 mb-4'>When should you use context API?</h3>
             <p>When I need to pass data down multiple levels of the component tree. In situations where data needs to be accessed by components that are several levels deep in the hierarchy, using Context API can simplify the process of passing data down through props.</p>
             <h3 className='text-2xl font-semibold mt-8 mb-4'>What is custom hook?</h3>

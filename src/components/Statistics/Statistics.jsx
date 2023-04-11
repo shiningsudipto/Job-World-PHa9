@@ -27,15 +27,16 @@ const Statistics = () => {
     ];
     return (
         <div className='flex justify-center mt-8'>
+            {/* <ResponsiveContainer width="100%" height="100%"> */}
             <ComposedChart
                 width={500}
                 height={400}
                 data={data}
                 margin={{
                     top: 20,
-                    right: 20,
+                    right: 60,
                     bottom: 20,
-                    left: 20
+                    left: 0
                 }}
             >
                 <CartesianGrid stroke="#f5f5f5" />
@@ -48,6 +49,7 @@ const Statistics = () => {
                 {/* <Line type="monotone" dataKey="id" stroke="#ff7300" /> */}
                 {/* <Scatter dataKey="cnt" fill="red" /> */}
             </ComposedChart>
+            {/* </ResponsiveContainer> */}
         </div>
     );
 };

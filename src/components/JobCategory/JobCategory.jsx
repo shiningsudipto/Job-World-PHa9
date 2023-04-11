@@ -13,10 +13,10 @@ const JobCategory = () => {
     return (
         <div className='container mx-auto my-20'>
             <div className='text-center'>
-                <h2 className='text-6xl font-bold mb-6'>Job Category List</h2>
+                <h2 className='md:text-6xl text-4xl font-bold mb-6'>Job Category List</h2>
                 <p className='mb-6'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
-            <div className='md:flex md:justify-between'>
+            <div className='job-categories flex md:justify-between '>
                 {
                     jobCategories.map(jobCategory => <JobList
                         key={jobCategory.id}

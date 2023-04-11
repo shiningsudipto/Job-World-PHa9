@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Jobs = ({ jobs }) => {
     const { company_logo, company_name, job_title, location, salary, id, remote_or_onsite } = jobs;
     return (
-        <div className="card shadow-xl">
+        <div className="card shadow-xl border rounded-xl">
             <div className="px-10 pt-10">
                 <img src={company_logo} alt="Shoes" className="rounded-xl h-12" />
             </div>

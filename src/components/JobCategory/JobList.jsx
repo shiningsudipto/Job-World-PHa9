@@ -13,9 +13,6 @@ const JobList = ({ jobCategory }) => {
                 <div className="card-actions">
                 </div>
             </div>
-            {/* <img src={image} alt="" />
-                <h4>{category}</h4>
-                <p><small>{jobs_available}</small></p> */}
         </div>
 
     );

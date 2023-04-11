@@ -12,7 +12,7 @@ const JobDetails = () => {
     // console.log(singleJobDetaile);
     const { job_description, job_responsibility, educational_requirements, experiences, salary, job_title, location, contact_information } = singleJobDetaile;
     return (
-        <div className='container mx-auto my-12 flex'>
+        <div className='container mx-auto my-12 flex md:flex-row flex-col md:px-0 px-4'>
             <div className='md:me-10'>
                 <p className='py-3'><span className='font-bold'> Job Description: </span> {job_description}</p>
                 <p className='py-3'><span className='font-bold'> Job Responsibility: </span> {job_responsibility}</p>
@@ -20,7 +20,7 @@ const JobDetails = () => {
                 <p className='py-3'><span className='font-bold'>Experiences:</span></p> <p>{experiences}</p>
             </div>
             <div>
-                <div className='p-5 bg-banner-50 md:w-96'>
+                <div className='p-5 bg-banner-50 md:w-96 md:mt-0 mt-8'>
                     <h4 className='py-6 font-bold text-xl'>Job Details</h4>
                     <hr className='mb-4' />
                     <p className='py-2'>(icon)<b>Salary: </b>{salary}</p>
