@@ -9,13 +9,13 @@ const MyJob = ({ myJob }) => {
             <div className='flex-grow ms-8'>
                 <h3>{job_title}</h3>
                 <p>{company_name}</p>
-                <button className='btn'>{remote_or_onsite}</button>
+                <button className='myBtn'>{remote_or_onsite}</button>
                 <div>
                     <p>(icon){location}</p>
                     <p>(icon)Salary: {salary}</p>
                 </div>
             </div>
-            <button className='btn'><Link to={`/jobDetails/${id}`}> View Details</Link></button>
+            <button className='myBtn'><Link to={`/jobDetails/${id}`}> View Details</Link></button>
         </div>
     );
 };

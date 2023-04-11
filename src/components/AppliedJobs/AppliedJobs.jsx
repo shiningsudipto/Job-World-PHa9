@@ -27,7 +27,7 @@ const AppliedJobs = () => {
         <div className='container mx-auto'>
             <div className='text-end'>
                 <div className="dropdown">
-                    <label tabIndex={0} className="btn me-8">Click</label>
+                    <label tabIndex={0} className="myBtn me-8 mt-8">Filter by</label>
                     <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box">
                         <li><button onClick={() => handleAppliedJobsByRemote('Onsite')}>Onsite</button></li>
                         <li><button onClick={() => handleAppliedJobsByRemote('Remote')}>Remote</button></li>
