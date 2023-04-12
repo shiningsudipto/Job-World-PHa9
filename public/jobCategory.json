@@ -1,25 +1,25 @@
 [
     {
         "id": 1,
-        "image": "../src/assets/Icons/social-media.png",
+        "image": "https://cdn-icons-png.flaticon.com/512/5225/5225530.png",
         "category": "Marketing",
         "jobs_available": "250 Jobs Available"
     },
     {
         "id": 2,
-        "image": "../src/assets/Icons/engineer.png",
+        "image": "https://cdn-icons-png.flaticon.com/512/2861/2861721.png",
         "category": "Engineering",
         "jobs_available": "50 Jobs Available"
     },
     {
         "id": 3,
-        "image": "../src/assets/Icons/finance.png",
+        "image": "https://cdn-icons-png.flaticon.com/512/2779/2779775.png",
         "category": "Design",
         "jobs_available": "200 Jobs Available"
     },
     {
         "id": 4,
-        "image": "../src/assets/Icons/accounts.png",
+        "image": "https://cdn-icons-png.flaticon.com/512/3655/3655406.png",
         "category": "Finance",
         "jobs_available": "10 Jobs Available"
     }

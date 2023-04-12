@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faCircleDollarToSlot } from '@fortawesome/free-solid-svg-icons'
 
 const Jobs = ({ jobs }) => {
     const { company_logo, company_name, job_title, location, salary, id, remote_or_onsite } = jobs;
@@ -16,8 +19,8 @@ const Jobs = ({ jobs }) => {
                     {/* <button className='btn'>Full Time</button> */}
                 </div>
                 <div className='flex'>
-                    <p>{location}</p>
-                    <p>{salary}</p>
+                    <p> <FontAwesomeIcon icon={faLocationDot} /> {location}</p>
+                    <p><FontAwesomeIcon icon={faCircleDollarToSlot} /> {salary}</p>
                 </div>
                 <div className="card-actions">
                     <button className="myBtn"> <Link to={`/jobDetails/${id}`}> View Details</Link></button>

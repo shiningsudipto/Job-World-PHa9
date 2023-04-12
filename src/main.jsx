@@ -13,6 +13,7 @@ import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import JobDetails from './components/FeaturedJobs/JobDetails';
 import Page404 from './components/Page404';
 
+
 const router = createBrowserRouter([
   {
     path: "/",

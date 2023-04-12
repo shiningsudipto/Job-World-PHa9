@@ -25,7 +25,7 @@
         align-items: center;
     }
 
-    .barChart {
-        /* width: 200px !important; */
+    .area-chart {
+        width: 200px !important;
     }
 }
