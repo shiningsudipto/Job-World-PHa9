@@ -21,7 +21,7 @@ const data = [
 
 export default function App() {
     return (
-        <ResponsiveContainer width="100%" height={400}>
+        <ResponsiveContainer className="bg-white text-black" width="100%" height={400}>
             <AreaChart
                 data={data}
                 margin={{

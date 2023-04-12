@@ -6,7 +6,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faFileText } from '@fortawesome/free-solid-svg-icons'
-// import { faEmail } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 
 const JobDetails = () => {
@@ -31,10 +31,10 @@ const JobDetails = () => {
                     <h4 className='py-6 font-bold text-xl'>Contact Information</h4>
                     <hr className='mb-4' />
                     <p className='py-2'><FontAwesomeIcon icon={faPhone} /><b> Phone:</b>{contact_information.phone}</p>
-                    <p className='py-2' ><b> Email:</b>{contact_information.email}</p>
+                    <p className='py-2' ><FontAwesomeIcon icon={faEnvelope} /><b> Email:</b>{contact_information.email}</p>
                     <p className='py-2'><FontAwesomeIcon icon={faLocationDot} /> <b>Address:</b>{location}</p>
                 </div>
-                <button onClick={() => addToLocalStorage(singleJobDetaile)} className='btn mt-4'>Apply Now</button>
+                <button onClick={() => addToLocalStorage(singleJobDetaile)} className='myBtn mt-4 w-full'>Apply Now</button>
             </div>
         </div>
     )

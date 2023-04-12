@@ -12,6 +12,10 @@
 }
 
 @media all and (max-width: 600px) {
+    .body {
+        background-color: white;
+    }
+
     .banner-section {
         width: 100% !important;
     }

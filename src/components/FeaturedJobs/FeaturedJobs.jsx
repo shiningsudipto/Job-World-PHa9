@@ -18,7 +18,7 @@ const FeaturedJobs = () => {
             .then((data) => setFeaturedJobs(data));
     };
     return (
-        <div className='container mx-auto my-20'>
+        <div className='container mx-auto md:px-20 my-20 bg-white text-black'>
             <div className='text-center'>
                 <h2 className='md:text-6xl text-4xl font-bold mb-6'>Featured Jobs</h2>
                 <p className='mb-6'>xplore thousands of job opportunities with all the information you need. Its your future</p>
