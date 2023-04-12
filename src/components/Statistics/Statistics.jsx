@@ -5,7 +5,8 @@ import {
     XAxis,
     YAxis,
     CartesianGrid,
-    Tooltip
+    Tooltip,
+    ResponsiveContainer
 } from "recharts";
 
 const data = [
@@ -20,22 +21,22 @@ const data = [
 
 export default function App() {
     return (
-        <AreaChart className="area-chart"
-            width={500}
-            height={400}
-            data={data}
-            margin={{
-                top: 10,
-                right: 30,
-                left: 0,
-                bottom: 0
-            }}
-        >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="name" />
-            <YAxis />
-            <Tooltip />
-            <Area type="monotone" dataKey="mark" stroke="#8884d8" fill="#8884d8" />
-        </AreaChart>
+        <ResponsiveContainer width="100%" height={400}>
+            <AreaChart
+                data={data}
+                margin={{
+                    top: 20,
+                    right: 20,
+                    left: 0,
+                    bottom: 20
+                }}
+            >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis />
+                <Tooltip />
+                <Area type="monotone" dataKey="mark" stroke="#8884d8" fill="#8884d8" />
+            </AreaChart>
+        </ResponsiveContainer>
     );
 }
